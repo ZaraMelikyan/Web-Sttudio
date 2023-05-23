@@ -1,0 +1,188 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --secondary-background-color: #2f303a;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --extra-black-color: #000000;
+  --black-color: #212121;
+  --grey-color: #757575;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ============== COMPONENTS ================= */
+
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-text-color);
+}
+
+.logo-part-dark-theme {
+  color: var(--white-color);
+}
+
+.logo-part-light-theme {
+  color: var(--extra-black-color);
+}
+
+
+.logo:hover .logo-part,
+.logo:focus .logo-part {
+  color: var(--accent-text-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--black-color);
+}
+
+/* ============== /COMPONENTS ================= */
+
+/* ============== HEADER ================= */
+
+.menu-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--black-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-text-color);
+}
+
+.communication-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--grey-color);
+}
+
+.communication-link:hover,
+.communication-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* ============== /HEADER ================= */
+
+/* ============== HERO ================= */
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+
+/* ============== /HERO ================= */
+
+/* ============== ADVANTAGE ================= */
+
+.advantage-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--black-color);
+}
+
+.advantage-item-text {
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: var(--grey-color);
+}
+
+/* ============== /ADVANTAGE ================= */
+
+/* ============== OUR WORK ================= */
+/* ============== /OUR WORK ================= */
+
+
+/* ============== OUR TEAM ================= */
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--black-color);
+}
+
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--grey-color);
+}
+
+/* ============== /OUR TEAM ================= */
+
+/* ================== FOOTER ===================== */
+
+.page-footer {
+  background-color: var(--secondary-background-color);
+}
+
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+
+  color: var(--white-color);
+}
+
+.contacts-link-smoky {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ================== /FOOTER ===================== */
